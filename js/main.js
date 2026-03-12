@@ -127,3 +127,31 @@ formulario.addEventListener("submit", function(e) {
         });
 });
 
+
+const darkModeToggle = document.getElementById('dark-mode-toggle');
+
+// Función para aplicar el tema y sincronizar el switch
+const applyTheme = (isDark) => {
+    if (isDark) {
+        document.documentElement.classList.add('dark');
+        darkModeToggle.checked = true;
+    } else {
+        document.documentElement.classList.remove('dark');
+        darkModeToggle.checked = false;
+    }
+};
+
+// 1. Verificación inicial: revisa el almacenamiento local o la preferencia del sistema
+const savedTheme = localStorage.getItem('theme');
+const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+if (savedTheme === 'dark' || (!savedTheme && systemPrefersDark)) {
+    applyTheme(true);
+}
+
+// 2. Evento de cambio para el switch
+darkModeToggle.addEventListener('change', () => {
+    const isDark = darkModeToggle.checked;
+    applyTheme(isDark);
+    localStorage.setItem('theme', isDark ? 'dark' : 'light');
+});
