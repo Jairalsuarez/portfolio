@@ -1,0 +1,8 @@
+/* En tu archivo css/styles.css */
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply transition-colors duration-500 ease-in-out;
+  }
+}
