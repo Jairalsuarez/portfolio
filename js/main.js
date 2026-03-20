@@ -39,7 +39,7 @@ const habilidades = [
         id: 7,
         nombre: "npm",
         experiencia: "Junior",
-        image: "../src/npm_icon_146141.png"
+        image: "https://avatars.githubusercontent.com/u/6078720?s=200&v=4"
     }
 ];
 
