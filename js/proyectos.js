@@ -6,7 +6,7 @@ const proyectos = [
         titulo: "Gestor de Facturas CRUD",
         descripcion: "Aplicación completa para gestionar facturas con operaciones completas y filtros avanzados.",
         tecnologias: ["Html", "Tailwind", "JS"], // JS se resaltará en ámbar como en la imagen
-        imagen: "../src/facturas.png", 
+        imagen: "../public/facturas.png", 
         demoUrl: "https://facturas-ten.vercel.app/",
         repoUrl: "https://github.com/Jairalsuarez/facturas.git"
     },
@@ -15,7 +15,7 @@ const proyectos = [
         titulo: "Gustum Recipes App",
         descripcion: "Aplicación para gestionar facturas con operaciones completas y filtros avanzados.",
         tecnologias: ["React", "Tailwind", "Route", "JS"], // JS se resaltará en ámbar como en la imagen
-        imagen: "../src/food.png", 
+        imagen: "../public/food.png", 
         demoUrl: "https://unrivaled-kelpie-928b9e.netlify.app/",
         repoUrl: "https://github.com/Jairalsuarez/recipesapp.git"
     },
@@ -24,7 +24,7 @@ const proyectos = [
         titulo: "Billetera Virtual",
         descripcion: "Aplicación para gestionar facturas con operaciones completas y filtros avanzados.",
         tecnologias: ["React", "Tailwind", "Route", "JS"],
-        imagen: "../src/wallet.png", 
+        imagen: "../public/wallet.png", 
         demoUrl: "https://loquacious-arithmetic-1cd4c2.netlify.app/",
         repoUrl: "https://github.com/Jairalsuarez/walletproject.git"
     }
