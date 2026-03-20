@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="../src/icons8-portfolio-50.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../css/index.css" rel="stylesheet" />
+    <script type="module" src="../js/proyectos.js" defer></script>
+    <title>Jair | Mis Proyectos Destacados</title>
+  </head>
+  <body class="bg-slate-950 font-sans text-slate-100 overflow-x-hidden min-h-screen flex flex-col transition-colors duration-300">
+    
+    <nav class="fixed top-0 z-50 w-full bg-slate-950/80 backdrop-blur-sm border-b border-slate-800/60 transition-colors duration-300 h-16 flex items-center justify-between px-6 shadow-lg shadow-black/10">
+      <a href="../index.html" class="flex items-center gap-2 text-slate-400 hover:text-amber-400 transition-colors group cursor-pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-4 h-4 transition-transform group-hover:-translate-x-1">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+        </svg>
+        <span class="text-xl font-semibold">Volver al Inicio</span>
+      </a>
+      <div class="font-bold text-sm tracking-widest text-white cursor-default select-none">
+        JAIR <span class="text-slate-500 font-light">DEV</span>
+      </div>
+    </nav>
+
+    <main class="max-w-7xl mx-auto px-6 pt-28 pb-24 flex-grow w-full">
+      <header class="mb-16 max-w-2xl cursor-default">
+        <h1 class="text-4xl md:text-5xl font-extrabold text-slate-100 mb-4 tracking-tight">
+          Mis Proyectos Destacados
+        </h1>
+        <p class="text-base text-slate-400 leading-relaxed">
+          Una muestra seleccionada de aplicaciones web y herramientas que he desarrollado. Me enfoco en crear soluciones funcionales, con código limpio y diseños centrados en el usuario.
+        </p>
+      </header>
+
+      <div id="proyectos-contenedor" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-stretch">
+        </div>
+    </main>
+
+    <footer class="py-10 text-center text-slate-600 text-sm border-t border-slate-800 cursor-default">
+      &copy; 2026 Jair Suarez. Todos los derechos reservados.
+    </footer>
+  </body>
+</html>
